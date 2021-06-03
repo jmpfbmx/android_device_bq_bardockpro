@@ -14,8 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_bardockpro.mk
+    $(LOCAL_DIR)/revengeos_bardockpro.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_bardockpro-userdebug \
-    lineage_bardockpro-eng
+    revengeos_bardockpro-eng \
+    revengeos_bardockpro-user \
+    revengeos_bardockpro-userdebug
